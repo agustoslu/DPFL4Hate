@@ -1,3 +1,6 @@
 [submodule "microsoft_src"]
 	path = microsoft_src
 	url = https://github.com/agustoslu/dp-transformers.git
+[submodule "src/microsoft_src"]
+	path = src/microsoft_src
+	url = https://github.com/agustoslu/dp-transformers.git
