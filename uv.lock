@@ -485,7 +485,7 @@ wheels = [
 [[package]]
 name = "dp-transformers"
 version = "1.0.1"
-source = { directory = "microsoft_src" }
+source = { directory = "src/microsoft_src" }
 dependencies = [
     { name = "datasets" },
     { name = "opacus" },
@@ -517,6 +517,7 @@ dependencies = [
     { name = "charset-normalizer" },
     { name = "click" },
     { name = "cryptography" },
+    { name = "datasets" },
     { name = "dp-transformers" },
     { name = "flwr" },
     { name = "grpcio" },
@@ -528,6 +529,7 @@ dependencies = [
     { name = "mdurl" },
     { name = "numpy" },
     { name = "pathspec" },
+    { name = "peft" },
     { name = "protobuf" },
     { name = "pycparser" },
     { name = "pycryptodome" },
@@ -554,7 +556,8 @@ requires-dist = [
     { name = "charset-normalizer", specifier = "==3.4.4" },
     { name = "click", specifier = "==8.1.8" },
     { name = "cryptography", specifier = "==44.0.3" },
-    { name = "dp-transformers", directory = "microsoft_src" },
+    { name = "datasets" },
+    { name = "dp-transformers", directory = "src/microsoft_src" },
     { name = "flwr", specifier = "==1.22.0" },
     { name = "grpcio", specifier = "==1.76.0" },
     { name = "grpcio-health-checking", specifier = "==1.62.3" },
@@ -565,6 +568,7 @@ requires-dist = [
     { name = "mdurl", specifier = "==0.1.2" },
     { name = "numpy", specifier = "==2.2.6" },
     { name = "pathspec", specifier = "==0.12.1" },
+    { name = "peft" },
     { name = "protobuf", specifier = "==4.25.8" },
     { name = "pycparser", specifier = "==2.23" },
     { name = "pycryptodome", specifier = "==3.23.0" },
