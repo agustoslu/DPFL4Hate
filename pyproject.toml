@@ -39,6 +39,7 @@ dependencies = [
     "typing_extensions==4.15.0",
     "urllib3==2.5.0",
     "uv==0.9.5",
+    "sentencepiece",
     "peft",
     "datasets",
     "opacus",
